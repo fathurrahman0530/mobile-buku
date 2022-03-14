@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID Buku"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/tv_judulBuku"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judul Buku"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tv_penerbit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penerbit"
+            android:textSize="18sp"
+            android:maxLines="2"
+            />
+
+        <TextView
+            android:id="@+id/tv_hrBuku"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga Buku"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_stok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stok"
+            android:textSize="18sp"
+            />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
